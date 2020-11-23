@@ -3521,7 +3521,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -26386,12 +26385,7 @@ var staticRenderFns = [
             _vm._v(
               "професионализм и качество в сфере геодезических услуг\n      "
             )
-          ]),
-          _vm._v(" "),
-          _c("div", {
-            staticClass:
-              "border-4 border-dashed border-gray-200 rounded-lg h-96"
-          })
+          ])
         ])
       ])
     ])

@@ -57,7 +57,6 @@
       </h1>
       <h2 class="text-white">професионализм и качество в сфере геодезических услуг
       </h2>
-        <div class="border-4 border-dashed border-gray-200 rounded-lg h-96"></div>
       </div>
       <!-- /End replace -->
     </div>
