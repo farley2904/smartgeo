@@ -53,7 +53,7 @@
       <!-- Replace with your content -->
       <div class="px-4 py-6 sm:px-0">
         <h1 class="text-3xl font-bold leading-tight text-white">
-        Геодезия сканирование
+        Геодезия <br>сканирование
       </h1>
       <h2 class="text-white">професионализм и качество в сфере геодезических услуг
       </h2>

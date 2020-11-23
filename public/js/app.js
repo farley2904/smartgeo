@@ -26378,7 +26378,11 @@ var staticRenderFns = [
           _c(
             "h1",
             { staticClass: "text-3xl font-bold leading-tight text-white" },
-            [_vm._v("\n        Геодезия сканирование\n      ")]
+            [
+              _vm._v("\n        Геодезия "),
+              _c("br"),
+              _vm._v("сканирование\n      ")
+            ]
           ),
           _vm._v(" "),
           _c("h2", { staticClass: "text-white" }, [
