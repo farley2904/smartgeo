@@ -3505,6 +3505,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -26171,21 +26178,22 @@ var render = function() {
                   "button",
                   {
                     staticClass:
-                      "bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                      "rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                   },
                   [
                     _c("span", { staticClass: "sr-only" }, [
-                      _vm._v("View notifications")
+                      _vm._v("Facebook")
                     ]),
                     _vm._v(" "),
                     _c(
                       "svg",
                       {
-                        staticClass: "h-6 w-6",
                         attrs: {
-                          xmlns: "http://www.w3.org/2000/svg",
+                          width: "21",
+                          height: "21",
+                          viewBox: "0 0 21 21",
                           fill: "none",
-                          viewBox: "0 0 24 24",
+                          xmlns: "http://www.w3.org/2000/svg",
                           stroke: "currentColor",
                           "aria-hidden": "true"
                         }
@@ -26193,11 +26201,9 @@ var render = function() {
                       [
                         _c("path", {
                           attrs: {
-                            "stroke-linecap": "round",
-                            "stroke-linejoin": "round",
-                            "stroke-width": "2",
                             d:
-                              "M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+                              "M20.8804 10.7476C20.8804 5.18158 16.3631 0.664246 10.7971 0.664246C5.23108 0.664246 0.713745 5.18158 0.713745 10.7476C0.713745 15.6279 4.18241 19.6915 8.78042 20.6293V13.7726H6.76375V10.7476H8.78042V8.22675C8.78042 6.28067 10.3635 4.69758 12.3096 4.69758H14.8304V7.72258H12.8138C12.2592 7.72258 11.8054 8.17633 11.8054 8.73092V10.7476H14.8304V13.7726H11.8054V20.7805C16.8975 20.2763 20.8804 15.9808 20.8804 10.7476Z",
+                            fill: "#232426"
                           }
                         })
                       ]
@@ -26209,21 +26215,20 @@ var render = function() {
                   "button",
                   {
                     staticClass:
-                      "bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                      "mx-3 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                   },
                   [
-                    _c("span", { staticClass: "sr-only" }, [
-                      _vm._v("View notifications")
-                    ]),
+                    _c("span", { staticClass: "sr-only" }, [_vm._v("Gmail")]),
                     _vm._v(" "),
                     _c(
                       "svg",
                       {
-                        staticClass: "h-6 w-6",
                         attrs: {
-                          xmlns: "http://www.w3.org/2000/svg",
+                          width: "22",
+                          height: "18",
+                          viewBox: "0 0 22 18",
                           fill: "none",
-                          viewBox: "0 0 24 24",
+                          xmlns: "http://www.w3.org/2000/svg",
                           stroke: "currentColor",
                           "aria-hidden": "true"
                         }
@@ -26231,11 +26236,9 @@ var render = function() {
                       [
                         _c("path", {
                           attrs: {
-                            "stroke-linecap": "round",
-                            "stroke-linejoin": "round",
-                            "stroke-width": "2",
                             d:
-                              "M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+                              "M19.6602 15.6526H17.5323V6.3431L11.1486 10.3329L4.76494 6.3431V15.6526H2.63705V2.88528H3.91378L11.1486 7.40704L18.3834 2.88528H19.6602V15.6526ZM19.6602 0.757385H2.63705C1.45607 0.757385 0.509155 1.7043 0.509155 2.88528V15.6526C0.509155 16.217 0.733343 16.7582 1.1324 17.1573C1.53146 17.5563 2.07269 17.7805 2.63705 17.7805H19.6602C20.2245 17.7805 20.7658 17.5563 21.1648 17.1573C21.5639 16.7582 21.7881 16.217 21.7881 15.6526V2.88528C21.7881 2.32092 21.5639 1.77969 21.1648 1.38063C20.7658 0.981573 20.2245 0.757385 19.6602 0.757385Z",
+                            fill: "#232426"
                           }
                         })
                       ]
@@ -26243,7 +26246,66 @@ var render = function() {
                   ]
                 ),
                 _vm._v(" "),
-                _vm._m(0)
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                  },
+                  [
+                    _c("span", { staticClass: "sr-only" }, [
+                      _vm._v("Telegeam")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          width: "21",
+                          height: "20",
+                          viewBox: "0 0 21 20",
+                          fill: "none",
+                          xmlns: "http://www.w3.org/2000/svg",
+                          stroke: "currentColor",
+                          "aria-hidden": "true"
+                        }
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M10.7509 0.210815C5.30432 0.210815 0.889038 4.6261 0.889038 10.0727C0.889038 15.5193 5.30432 19.9346 10.7509 19.9346C16.1976 19.9346 20.6129 15.5193 20.6129 10.0727C20.6129 4.6261 16.1976 0.210815 10.7509 0.210815Z",
+                            fill: "#232426"
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M15.5497 5.88375L13.7882 14.7648C13.7882 14.7648 13.5419 15.3807 12.8644 15.0851L8.79958 11.9687L7.32152 11.2543L4.83338 10.4167C4.83338 10.4167 4.45154 10.2812 4.41456 9.98561C4.37757 9.68999 4.84571 9.52988 4.84571 9.52988L14.7366 5.64984C14.7366 5.64984 15.5496 5.29265 15.5496 5.88391",
+                            fill: "white"
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M8.48712 14.6649C8.48712 14.6649 8.36847 14.6538 8.22054 14.1857C8.07284 13.7176 7.32141 11.2541 7.32141 11.2541L13.2954 7.46038C13.2954 7.46038 13.6404 7.25097 13.628 7.46038C13.628 7.46038 13.6896 7.49736 13.5048 7.66979C13.3201 7.8423 8.81187 11.8947 8.81187 11.8947",
+                            fill: "#D2E5F1"
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c("path", {
+                          attrs: {
+                            d:
+                              "M10.3581 13.1634L8.75037 14.6293C8.75037 14.6293 8.62463 14.7247 8.48718 14.6649L8.79506 11.9421",
+                            fill: "#B5CFE4"
+                          }
+                        })
+                      ]
+                    )
+                  ]
+                )
               ]
             )
           ]
@@ -26251,23 +26313,10 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(1)
+    _vm._m(0)
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "button",
-      {
-        staticClass:
-          "bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-      },
-      [_c("span", { staticClass: "sr-only" }, [_vm._v("View notifications")])]
-    )
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
