@@ -3514,6 +3514,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -26370,11 +26378,31 @@ var staticRenderFns = [
         _c(
           "h1",
           { staticClass: "text-6xl font-bold leading-tight text-white" },
-          [_vm._v("Геодезия"), _c("br"), _vm._v("сканирование")]
+          [_vm._v("Геодезия и 3Д"), _c("br"), _vm._v("сканирование")]
         ),
         _vm._v(" "),
         _c("h2", { staticClass: "text-2xl text-white" }, [
           _vm._v("професионализм и качество в сфере геодезических услуг")
+        ]),
+        _vm._v(" "),
+        _c("nav", {}, [
+          _c("ul", { staticClass: "flex mt-40" }, [
+            _c("li", {}, [
+              _c("img", { attrs: { src: "images/1.jpg", alt: "1" } })
+            ]),
+            _vm._v(" "),
+            _c("li", {}, [
+              _c("img", { attrs: { src: "images/1.jpg", alt: "2" } })
+            ]),
+            _vm._v(" "),
+            _c("li", {}, [
+              _c("img", { attrs: { src: "images/1.jpg", alt: "3" } })
+            ]),
+            _vm._v(" "),
+            _c("li", {}, [
+              _c("img", { attrs: { src: "images/1.jpg", alt: "4" } })
+            ])
+          ])
         ])
       ])
     ])

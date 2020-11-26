@@ -50,8 +50,16 @@
     </header>
     <main>
         <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-            <h1 class="text-6xl font-bold leading-tight text-white">Геодезия<br>сканирование</h1>
+            <h1 class="text-6xl font-bold leading-tight text-white">Геодезия и 3Д<br>сканирование</h1>
             <h2 class="text-2xl text-white">професионализм и качество в сфере геодезических услуг</h2>
+            <nav class="">
+                <ul class="flex mt-40">
+                    <li class=""><img src="images/1.jpg" alt="1"></li>
+                    <li class=""><img src="images/1.jpg" alt="2"></li>
+                    <li class=""><img src="images/1.jpg" alt="3"></li>
+                    <li class=""><img src="images/1.jpg" alt="4"></li>
+                </ul>
+            </nav>
         </div>
     </main>
 </div>
