@@ -49,17 +49,10 @@
         </div>
     </header>
     <main>
-    <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-      <!-- Replace with your content -->
-      <div class="px-4 py-6 sm:px-0">
-        <h1 class="text-3xl font-bold leading-tight text-white">
-        Геодезия <br>сканирование
-      </h1>
-      <h2 class="text-white">професионализм и качество в сфере геодезических услуг
-      </h2>
-      </div>
-      <!-- /End replace -->
-    </div>
+        <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+            <h1 class="text-6xl font-bold leading-tight text-white">Геодезия<br>сканирование</h1>
+            <h2 class="text-2xl text-white">професионализм и качество в сфере геодезических услуг</h2>
+        </div>
     </main>
 </div>
 </template>
