@@ -26204,31 +26204,42 @@ var staticRenderFns = [
         ),
         _vm._v(" "),
         _c("h2", { staticClass: "text-2xl text-white" }, [
-          _vm._v("професионализм и качество в сфере геодезических услуг")
+          _vm._v("профессионализм и качество в сфере геодезических услуг")
         ]),
         _vm._v(" "),
         _c("nav", {}, [
-          _c("ul", { staticClass: "flex mt-40" }, [
+          _c("ul", { staticClass: "flex mt-32" }, [
             _c("li", { staticClass: "mx-1" }, [
-              _c("a", { attrs: { href: "#1" } }, [
-                _c("img", { attrs: { src: "images/1.jpg", alt: "1" } })
-              ])
+              _c(
+                "a",
+                {
+                  staticClass: "bg-white",
+                  attrs: { href: "#3d_skanirovanie" }
+                },
+                [
+                  _vm._v("зд сканирование"),
+                  _c("img", { attrs: { src: "images/1.jpg", alt: "1" } })
+                ]
+              )
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "mx-1" }, [
-              _c("a", { attrs: { href: "#2" } }, [
+              _c("a", { staticClass: "bg-white", attrs: { href: "#2" } }, [
+                _vm._v("фасады"),
                 _c("img", { attrs: { src: "images/2.jpg", alt: "2" } })
               ])
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "mx-1" }, [
-              _c("a", { attrs: { href: "#3" } }, [
+              _c("a", { staticClass: "bg-white", attrs: { href: "#3" } }, [
+                _vm._v("геод. в строительстве"),
                 _c("img", { attrs: { src: "images/3.jpg", alt: "3" } })
               ])
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "mx-1" }, [
-              _c("a", { attrs: { href: "#4" } }, [
+              _c("a", { staticClass: "bg-white", attrs: { href: "#4" } }, [
+                _vm._v("изыскания"),
                 _c("img", { attrs: { src: "images/4.jpg", alt: "4" } })
               ])
             ])
