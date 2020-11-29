@@ -26209,20 +26209,28 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("nav", {}, [
           _c("ul", { staticClass: "flex mt-40" }, [
-            _c("li", {}, [
-              _c("img", { attrs: { src: "images/1.jpg", alt: "1" } })
+            _c("li", { staticClass: "mx-1" }, [
+              _c("a", { attrs: { href: "#1" } }, [
+                _c("img", { attrs: { src: "images/1.jpg", alt: "1" } })
+              ])
             ]),
             _vm._v(" "),
-            _c("li", {}, [
-              _c("img", { attrs: { src: "images/2.jpg", alt: "2" } })
+            _c("li", { staticClass: "mx-1" }, [
+              _c("a", { attrs: { href: "#2" } }, [
+                _c("img", { attrs: { src: "images/2.jpg", alt: "2" } })
+              ])
             ]),
             _vm._v(" "),
-            _c("li", {}, [
-              _c("img", { attrs: { src: "images/3.jpg", alt: "3" } })
+            _c("li", { staticClass: "mx-1" }, [
+              _c("a", { attrs: { href: "#3" } }, [
+                _c("img", { attrs: { src: "images/3.jpg", alt: "3" } })
+              ])
             ]),
             _vm._v(" "),
-            _c("li", {}, [
-              _c("img", { attrs: { src: "images/4.jpg", alt: "4" } })
+            _c("li", { staticClass: "mx-1" }, [
+              _c("a", { attrs: { href: "#4" } }, [
+                _c("img", { attrs: { src: "images/4.jpg", alt: "4" } })
+              ])
             ])
           ])
         ])

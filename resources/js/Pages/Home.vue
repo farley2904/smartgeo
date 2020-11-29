@@ -26,10 +26,10 @@
             <h2 class="text-2xl text-white">професионализм и качество в сфере геодезических услуг</h2>
             <nav class="">
                 <ul class="flex mt-40">
-                    <li class=""><img src="images/1.jpg" alt="1"></li>
-                    <li class=""><img src="images/2.jpg" alt="2"></li>
-                    <li class=""><img src="images/3.jpg" alt="3"></li>
-                    <li class=""><img src="images/4.jpg" alt="4"></li>
+                    <li class="mx-1"><a href="#1"><img src="images/1.jpg" alt="1"></a></li>
+                    <li class="mx-1"><a href="#2"><img src="images/2.jpg" alt="2"></a></li>
+                    <li class="mx-1"><a href="#3"><img src="images/3.jpg" alt="3"></a></li>
+                    <li class="mx-1"><a href="#4"><img src="images/4.jpg" alt="4"></a></li>
                 </ul>
             </nav>
         </div>
