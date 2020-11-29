@@ -27,9 +27,9 @@
             <nav class="">
                 <ul class="flex mt-40">
                     <li class=""><img src="images/1.jpg" alt="1"></li>
-                    <li class=""><img src="images/1.jpg" alt="2"></li>
-                    <li class=""><img src="images/1.jpg" alt="3"></li>
-                    <li class=""><img src="images/1.jpg" alt="4"></li>
+                    <li class=""><img src="images/2.jpg" alt="2"></li>
+                    <li class=""><img src="images/3.jpg" alt="3"></li>
+                    <li class=""><img src="images/4.jpg" alt="4"></li>
                 </ul>
             </nav>
         </div>

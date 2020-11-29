@@ -26214,15 +26214,15 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("li", {}, [
-              _c("img", { attrs: { src: "images/1.jpg", alt: "2" } })
+              _c("img", { attrs: { src: "images/2.jpg", alt: "2" } })
             ]),
             _vm._v(" "),
             _c("li", {}, [
-              _c("img", { attrs: { src: "images/1.jpg", alt: "3" } })
+              _c("img", { attrs: { src: "images/3.jpg", alt: "3" } })
             ]),
             _vm._v(" "),
             _c("li", {}, [
-              _c("img", { attrs: { src: "images/1.jpg", alt: "4" } })
+              _c("img", { attrs: { src: "images/4.jpg", alt: "4" } })
             ])
           ])
         ])
