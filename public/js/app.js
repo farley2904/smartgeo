@@ -3494,6 +3494,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -26131,21 +26133,23 @@ var render = function() {
                   "flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
               },
               [
-                _c(
-                  "div",
-                  { staticClass: "flex-shrink-0 flex items-center" },
-                  [
-                    _c("img", {
-                      staticClass: "block lg:hidden h-8 w-auto",
-                      attrs: { src: "images/logo-mini.svg", alt: "Smartgeo" }
-                    }),
-                    _vm._v(" "),
-                    _c("jet-application-logo", {
-                      staticClass: "hidden lg:block h-8 w-auto"
-                    })
-                  ],
-                  1
-                )
+                _c("div", { staticClass: "flex-shrink-0 flex items-center" }, [
+                  _c(
+                    "a",
+                    { attrs: { href: "/" } },
+                    [
+                      _c("img", {
+                        staticClass: "block lg:hidden h-8 w-auto",
+                        attrs: { src: "images/logo-mini.svg", alt: "Smartgeo" }
+                      }),
+                      _vm._v(" "),
+                      _c("jet-application-logo", {
+                        staticClass: "hidden lg:block h-8 w-auto"
+                      })
+                    ],
+                    1
+                  )
+                ])
               ]
             ),
             _vm._v(" "),
