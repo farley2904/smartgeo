@@ -32,9 +32,9 @@
             <nav class="">
                 <ul class="flex mt-32 ">
                     <li class="mx-1"><a class="bg-black" href="#3d_skanirovanie">3D сканирование<img src="images/1.jpg" alt="1"></a></li>
-                    <li class="mx-1"><a class="bg-black" href="#2">фасады<img src="images/2.jpg" alt="2"></a></li>
-                    <li class="mx-1"><a class="bg-black" href="#3">в строительстве<img src="images/3.jpg" alt="3"></a></li>
-                    <li class="mx-1"><a class="bg-black" href="#4">изыскания<img src="images/4.jpg" alt="4"></a></li>
+                    <li class="mx-1"><a class="bg-black" href="#fasady">фасады<img src="images/2.jpg" alt="2"></a></li>
+                    <li class="mx-1"><a class="bg-black" href="#v_stroitelstve">в строительстве<img src="images/3.jpg" alt="3"></a></li>
+                    <li class="mx-1"><a class="bg-black" href="#izyskaniya">изыскания<img src="images/4.jpg" alt="4"></a></li>
                 </ul>
             </nav>
         </div>

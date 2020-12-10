@@ -26249,24 +26249,39 @@ var staticRenderFns = [
               ]),
               _vm._v(" "),
               _c("li", { staticClass: "mx-1" }, [
-                _c("a", { staticClass: "bg-black", attrs: { href: "#2" } }, [
-                  _vm._v("фасады"),
-                  _c("img", { attrs: { src: "images/2.jpg", alt: "2" } })
-                ])
+                _c(
+                  "a",
+                  { staticClass: "bg-black", attrs: { href: "#fasady" } },
+                  [
+                    _vm._v("фасады"),
+                    _c("img", { attrs: { src: "images/2.jpg", alt: "2" } })
+                  ]
+                )
               ]),
               _vm._v(" "),
               _c("li", { staticClass: "mx-1" }, [
-                _c("a", { staticClass: "bg-black", attrs: { href: "#3" } }, [
-                  _vm._v("в строительстве"),
-                  _c("img", { attrs: { src: "images/3.jpg", alt: "3" } })
-                ])
+                _c(
+                  "a",
+                  {
+                    staticClass: "bg-black",
+                    attrs: { href: "#v_stroitelstve" }
+                  },
+                  [
+                    _vm._v("в строительстве"),
+                    _c("img", { attrs: { src: "images/3.jpg", alt: "3" } })
+                  ]
+                )
               ]),
               _vm._v(" "),
               _c("li", { staticClass: "mx-1" }, [
-                _c("a", { staticClass: "bg-black", attrs: { href: "#4" } }, [
-                  _vm._v("изыскания"),
-                  _c("img", { attrs: { src: "images/4.jpg", alt: "4" } })
-                ])
+                _c(
+                  "a",
+                  { staticClass: "bg-black", attrs: { href: "#izyskaniya" } },
+                  [
+                    _vm._v("изыскания"),
+                    _c("img", { attrs: { src: "images/4.jpg", alt: "4" } })
+                  ]
+                )
               ])
             ])
           ])
