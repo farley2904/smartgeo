@@ -3499,6 +3499,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -26235,53 +26255,63 @@ var staticRenderFns = [
           _c("nav", {}, [
             _c("ul", { staticClass: "flex mt-32 " }, [
               _c("li", { staticClass: "mx-1" }, [
-                _c(
-                  "a",
-                  {
-                    staticClass: "bg-black",
-                    attrs: { href: "#3d_skanirovanie" }
-                  },
-                  [
-                    _vm._v("3D сканирование"),
-                    _c("img", { attrs: { src: "images/1.jpg", alt: "1" } })
-                  ]
-                )
+                _c("a", { attrs: { href: "#3d_skanirovanie" } }, [
+                  _c(
+                    "p",
+                    { staticClass: "bg-black relative top-6 z-10 text-center" },
+                    [_vm._v("3D сканирование")]
+                  ),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "relative z-0",
+                    attrs: { src: "images/1.jpg", alt: "1" }
+                  })
+                ])
               ]),
               _vm._v(" "),
               _c("li", { staticClass: "mx-1" }, [
-                _c(
-                  "a",
-                  { staticClass: "bg-black", attrs: { href: "#fasady" } },
-                  [
-                    _vm._v("фасады"),
-                    _c("img", { attrs: { src: "images/2.jpg", alt: "2" } })
-                  ]
-                )
+                _c("a", { attrs: { href: "#fasady" } }, [
+                  _c(
+                    "p",
+                    { staticClass: "bg-black relative top-6 z-10 text-center" },
+                    [_vm._v("фасады")]
+                  ),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "relative z-0",
+                    attrs: { src: "images/2.jpg", alt: "1" }
+                  })
+                ])
               ]),
               _vm._v(" "),
               _c("li", { staticClass: "mx-1" }, [
-                _c(
-                  "a",
-                  {
-                    staticClass: "bg-black",
-                    attrs: { href: "#v_stroitelstve" }
-                  },
-                  [
-                    _vm._v("в строительстве"),
-                    _c("img", { attrs: { src: "images/3.jpg", alt: "3" } })
-                  ]
-                )
+                _c("a", { attrs: { href: "#v_stroitelstve" } }, [
+                  _c(
+                    "p",
+                    { staticClass: "bg-black relative top-6 z-10 text-center" },
+                    [_vm._v("в строительстве")]
+                  ),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "relative z-0",
+                    attrs: { src: "images/3.jpg", alt: "1" }
+                  })
+                ])
               ]),
               _vm._v(" "),
               _c("li", { staticClass: "mx-1" }, [
-                _c(
-                  "a",
-                  { staticClass: "bg-black", attrs: { href: "#izyskaniya" } },
-                  [
-                    _vm._v("изыскания"),
-                    _c("img", { attrs: { src: "images/4.jpg", alt: "4" } })
-                  ]
-                )
+                _c("a", { attrs: { href: "#izyskaniya" } }, [
+                  _c(
+                    "p",
+                    { staticClass: "bg-black relative top-6 z-10 text-center" },
+                    [_vm._v("изыскания")]
+                  ),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "relative z-0",
+                    attrs: { src: "images/4.jpg", alt: "1" }
+                  })
+                ])
               ])
             ])
           ])
