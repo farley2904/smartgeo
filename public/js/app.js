@@ -26242,7 +26242,7 @@ var staticRenderFns = [
                     attrs: { href: "#3d_skanirovanie" }
                   },
                   [
-                    _vm._v("зd сканирование"),
+                    _vm._v("3D сканирование"),
                     _c("img", { attrs: { src: "images/1.jpg", alt: "1" } })
                   ]
                 )
