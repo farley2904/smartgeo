@@ -3496,6 +3496,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -26166,13 +26169,15 @@ var render = function() {
                   "\n                    +38 (050) 086 60 09\n                "
                 )
               ]
-            )
+            ),
+            _vm._v(" "),
+            _vm._m(1)
           ]
         )
       ])
     ]),
     _vm._v(" "),
-    _vm._m(1)
+    _vm._m(2)
   ])
 }
 var staticRenderFns = [
@@ -26199,57 +26204,74 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-6"
+      },
+      [_c("a", { attrs: { href: "#o_nas" } }, [_vm._v("О нас")])]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("main", [
-      _c("div", { staticClass: "max-w-7xl mx-auto py-6 sm:px-6 lg:px-8" }, [
-        _c(
-          "h1",
-          { staticClass: "text-6xl font-bold leading-tight text-white" },
-          [_vm._v("Геодезия и 3Д"), _c("br"), _vm._v("сканирование")]
-        ),
-        _vm._v(" "),
-        _c("h2", { staticClass: "text-2xl text-white" }, [
-          _vm._v("профессионализм и качество в сфере геодезических услуг")
-        ]),
-        _vm._v(" "),
-        _c("nav", {}, [
-          _c("ul", { staticClass: "flex mt-32" }, [
-            _c("li", { staticClass: "mx-1" }, [
-              _c(
-                "a",
-                {
-                  staticClass: "bg-white",
-                  attrs: { href: "#3d_skanirovanie" }
-                },
-                [
-                  _vm._v("зд сканирование"),
-                  _c("img", { attrs: { src: "images/1.jpg", alt: "1" } })
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "mx-1" }, [
-              _c("a", { staticClass: "bg-white", attrs: { href: "#2" } }, [
-                _vm._v("фасады"),
-                _c("img", { attrs: { src: "images/2.jpg", alt: "2" } })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "mx-1" }, [
-              _c("a", { staticClass: "bg-white", attrs: { href: "#3" } }, [
-                _vm._v("геод. в строительстве"),
-                _c("img", { attrs: { src: "images/3.jpg", alt: "3" } })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "mx-1" }, [
-              _c("a", { staticClass: "bg-white", attrs: { href: "#4" } }, [
-                _vm._v("изыскания"),
-                _c("img", { attrs: { src: "images/4.jpg", alt: "4" } })
+      _c(
+        "div",
+        { staticClass: "max-w-7xl mx-auto py-6 sm:px-6 lg:px-8 text-white" },
+        [
+          _c("h1", { staticClass: "text-6xl font-bold leading-tight" }, [
+            _vm._v("Геодезия и 3D"),
+            _c("br"),
+            _vm._v("сканирование")
+          ]),
+          _vm._v(" "),
+          _c("h2", { staticClass: "text-2xl" }, [
+            _vm._v("профессионализм и качество в сфере геодезических услуг")
+          ]),
+          _vm._v(" "),
+          _c("nav", {}, [
+            _c("ul", { staticClass: "flex mt-32 " }, [
+              _c("li", { staticClass: "mx-1" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "bg-black",
+                    attrs: { href: "#3d_skanirovanie" }
+                  },
+                  [
+                    _vm._v("зd сканирование"),
+                    _c("img", { attrs: { src: "images/1.jpg", alt: "1" } })
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "mx-1" }, [
+                _c("a", { staticClass: "bg-black", attrs: { href: "#2" } }, [
+                  _vm._v("фасады"),
+                  _c("img", { attrs: { src: "images/2.jpg", alt: "2" } })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "mx-1" }, [
+                _c("a", { staticClass: "bg-black", attrs: { href: "#3" } }, [
+                  _vm._v("в строительстве"),
+                  _c("img", { attrs: { src: "images/3.jpg", alt: "3" } })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "mx-1" }, [
+                _c("a", { staticClass: "bg-black", attrs: { href: "#4" } }, [
+                  _vm._v("изыскания"),
+                  _c("img", { attrs: { src: "images/4.jpg", alt: "4" } })
+                ])
               ])
             ])
           ])
-        ])
-      ])
+        ]
+      )
     ])
   }
 ]
