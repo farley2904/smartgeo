@@ -26253,7 +26253,7 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("nav", {}, [
-            _c("ul", { staticClass: "flex mt-32 " }, [
+            _c("ul", { staticClass: "flex mt-28 " }, [
               _c("li", { staticClass: "mx-1" }, [
                 _c("a", { attrs: { href: "#3d_skanirovanie" } }, [
                   _c(
