@@ -3519,6 +3519,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -26237,10 +26248,12 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("main", [
+    return _c("main", { staticClass: "flex flew-wrap" }, [
       _c(
         "div",
-        { staticClass: "max-w-7xl mx-auto py-6 sm:px-6 lg:px-8 text-white" },
+        {
+          staticClass: "w-3/4 text-white max-w-7xl mx-auto py-6 sm:px-6 lg:px-8"
+        },
         [
           _c("h1", { staticClass: "text-6xl font-bold leading-tight" }, [
             _vm._v("Геодезия и 3D"),
@@ -26316,7 +26329,48 @@ var staticRenderFns = [
             ])
           ])
         ]
-      )
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "w-1/4" }, [
+        _c(
+          "a",
+          {
+            staticClass: "rounded-full block mt-10",
+            attrs: { href: "#gmail" }
+          },
+          [
+            _c("img", {
+              staticClass: "mx-auto",
+              attrs: { src: "images/gmail.svg", alt: "Gmail" }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "rounded-full block my-3",
+            attrs: { href: "#telegram" }
+          },
+          [
+            _c("img", {
+              staticClass: "mx-auto",
+              attrs: { src: "images/telegram.svg", alt: "Telegeam" }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "rounded-full block", attrs: { href: "#facebook" } },
+          [
+            _c("img", {
+              staticClass: "mx-auto",
+              attrs: { src: "images/facebook.svg", alt: "Facebook" }
+            })
+          ]
+        )
+      ])
     ])
   }
 ]
