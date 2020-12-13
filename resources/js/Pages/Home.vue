@@ -1,7 +1,7 @@
 <template>
 <div>
     <header class="bg-white">
-        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-12">
             <div class="relative flex items-center justify-between h-16">
                 <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                     <div class="flex-shrink-0 flex items-center">
@@ -26,7 +26,7 @@
         </div>
     </header>
     <main class="flex flew-wrap">
-        <div class="w-3/4 text-white max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+        <div class="w-3/4 text-white max-w-7xl mx-auto pt-16 pl-40">
             <h1 class="text-6xl font-bold leading-tight">Геодезия и 3D<br>сканирование</h1>
             <h2 class="text-2xl">профессионализм и качество в сфере геодезических услуг</h2>
             <nav class="">
@@ -65,7 +65,7 @@
             <a href="#telegram" class="rounded-full block my-3">
                 <img class="mx-auto" src="images/telegram.svg" alt="Telegeam">
             </a>
-            <a href="#facebook" class="rounded-full block">
+            <a href="https://www.facebook.com/smart.geo.92" class="rounded-full block">
                 <img class="mx-auto" src="images/facebook.svg" alt="Facebook">
             </a>     
         </div>

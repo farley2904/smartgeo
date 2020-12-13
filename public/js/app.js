@@ -26155,7 +26155,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", [
     _c("header", { staticClass: "bg-white" }, [
-      _c("div", { staticClass: "max-w-7xl mx-auto px-2 sm:px-6 lg:px-8" }, [
+      _c("div", { staticClass: "max-w-7xl mx-auto px-2 sm:px-6 lg:px-12" }, [
         _c(
           "div",
           { staticClass: "relative flex items-center justify-between h-16" },
@@ -26251,9 +26251,7 @@ var staticRenderFns = [
     return _c("main", { staticClass: "flex flew-wrap" }, [
       _c(
         "div",
-        {
-          staticClass: "w-3/4 text-white max-w-7xl mx-auto py-6 sm:px-6 lg:px-8"
-        },
+        { staticClass: "w-3/4 text-white max-w-7xl mx-auto pt-16 pl-40" },
         [
           _c("h1", { staticClass: "text-6xl font-bold leading-tight" }, [
             _vm._v("Геодезия и 3D"),
@@ -26362,7 +26360,10 @@ var staticRenderFns = [
         _vm._v(" "),
         _c(
           "a",
-          { staticClass: "rounded-full block", attrs: { href: "#facebook" } },
+          {
+            staticClass: "rounded-full block",
+            attrs: { href: "https://www.facebook.com/smart.geo.92" }
+          },
           [
             _c("img", {
               staticClass: "mx-auto",
