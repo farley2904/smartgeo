@@ -26225,7 +26225,7 @@ var staticRenderFns = [
       [
         _c("div", { staticClass: "flex-shrink-0 flex items-center" }, [
           _vm._v(
-            "\n                       Сайт в разработке. Зайдите позже.\n                    "
+            "\n                    \tСайт в разработке. Зайдите позже.\n                    "
           )
         ])
       ]
@@ -26251,15 +26251,15 @@ var staticRenderFns = [
     return _c("main", { staticClass: "flex flew-wrap" }, [
       _c(
         "div",
-        { staticClass: "w-3/4 text-white max-w-7xl mx-auto pt-16 pl-40" },
+        { staticClass: "w-3/4 text-white max-w-7xl mx-auto pt-10 pl-40" },
         [
-          _c("h1", { staticClass: "text-6xl font-bold leading-tight" }, [
+          _c("h1", { staticClass: "text-5xl font-medium leading-none" }, [
             _vm._v("Геодезия и 3D"),
             _c("br"),
             _vm._v("сканирование")
           ]),
           _vm._v(" "),
-          _c("h2", { staticClass: "text-2xl" }, [
+          _c("h2", { staticClass: "text-xl" }, [
             _vm._v("профессионализм и качество в сфере геодезических услуг")
           ]),
           _vm._v(" "),

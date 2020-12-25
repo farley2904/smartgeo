@@ -13,7 +13,7 @@
                 </div>
                 <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                     <div class="flex-shrink-0 flex items-center">
-                       Сайт в разработке. Зайдите позже.
+                    	Сайт в разработке. Зайдите позже.
                     </div>
                 </div>
                 <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
@@ -26,9 +26,9 @@
         </div>
     </header>
     <main class="flex flew-wrap">
-        <div class="w-3/4 text-white max-w-7xl mx-auto pt-16 pl-40">
-            <h1 class="text-6xl font-bold leading-tight">Геодезия и 3D<br>сканирование</h1>
-            <h2 class="text-2xl">профессионализм и качество в сфере геодезических услуг</h2>
+        <div class="w-3/4 text-white max-w-7xl mx-auto pt-10 pl-40">
+            <h1 class="text-5xl font-medium leading-none">Геодезия и 3D<br>сканирование</h1>
+            <h2 class="text-xl">профессионализм и качество в сфере геодезических услуг</h2>
             <nav class="">
                 <ul class="flex mt-28 ">
                     <li class="mx-1">
