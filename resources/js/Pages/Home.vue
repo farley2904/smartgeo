@@ -30,7 +30,7 @@
             <h1 class="text-5xl font-medium leading-none">Геодезия и 3D<br>сканирование</h1>
             <h2 class="text-xl">профессионализм и качество в сфере геодезических услуг</h2>
             <nav class="">
-                <ul class="flex mt-28 ">
+                <ul class="flex mt-40">
                     <li class="mx-1">
                         <a href="#3d_skanirovanie">
                             <p class="bg-black relative top-6 z-10 text-center">3D сканирование</p>
