@@ -3527,9 +3527,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -26155,57 +26152,55 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", [
     _c("header", { staticClass: "bg-white" }, [
-      _c("div", { staticClass: "max-w-7xl mx-auto px-2 sm:px-6 lg:px-12" }, [
-        _c(
-          "div",
-          { staticClass: "relative flex items-center justify-between h-16" },
-          [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
-              },
-              [
-                _c("div", { staticClass: "flex-shrink-0 flex items-center" }, [
+      _c(
+        "div",
+        { staticClass: "max-w-7xl mx-auto px-2 sm:px-6 lg:pl-40 lg:pr-28" },
+        [
+          _c(
+            "div",
+            { staticClass: "relative flex items-center justify-between h-16" },
+            [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
+                },
+                [
                   _c(
-                    "a",
-                    { attrs: { href: "/" } },
+                    "div",
+                    { staticClass: "flex-shrink-0 flex items-center" },
                     [
-                      _c("img", {
-                        staticClass: "block lg:hidden h-8 w-auto",
-                        attrs: { src: "images/logo-mini.svg", alt: "Smartgeo" }
-                      }),
-                      _vm._v(" "),
-                      _c("jet-application-logo", {
-                        staticClass: "hidden lg:block h-8 w-auto"
-                      })
-                    ],
-                    1
+                      _c(
+                        "a",
+                        { attrs: { href: "/" } },
+                        [
+                          _c("img", {
+                            staticClass: "block lg:hidden h-8 w-auto",
+                            attrs: {
+                              src: "images/logo-mini.svg",
+                              alt: "Smartgeo"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("jet-application-logo", {
+                            staticClass: "hidden lg:block h-8 w-auto"
+                          })
+                        ],
+                        1
+                      )
+                    ]
                   )
-                ])
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(0),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass:
-                  "absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
-              },
-              [
-                _vm._v(
-                  "\n                    +38 (050) 086 60 09\n                "
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(1)
-          ]
-        )
-      ])
+                ]
+              ),
+              _vm._v(" "),
+              _vm._m(0),
+              _vm._v(" "),
+              _vm._m(1)
+            ]
+          )
+        ]
+      )
     ]),
     _vm._v(" "),
     _vm._m(2)
@@ -26225,7 +26220,7 @@ var staticRenderFns = [
       [
         _c("div", { staticClass: "flex-shrink-0 flex items-center" }, [
           _vm._v(
-            "\n                    \tСайт в разработке. Зайдите позже.\n                    "
+            "\n                    \t+38 (050) 086 60 09\n                    "
           )
         ])
       ]

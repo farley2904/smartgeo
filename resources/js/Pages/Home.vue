@@ -1,7 +1,7 @@
 <template>
 <div>
     <header class="bg-white">
-        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-12">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:pl-40 lg:pr-28">
             <div class="relative flex items-center justify-between h-16">
                 <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                     <div class="flex-shrink-0 flex items-center">
@@ -13,11 +13,8 @@
                 </div>
                 <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                     <div class="flex-shrink-0 flex items-center">
-                    	Сайт в разработке. Зайдите позже.
+                    	+38 (050) 086 60 09
                     </div>
-                </div>
-                <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                    +38 (050) 086 60 09
                 </div>
                 <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-6">
                       <a href="#o_nas">О нас</a>
