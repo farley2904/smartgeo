@@ -22,50 +22,52 @@
             </div>
         </div>
     </header>
-    <main class="flex flew-wrap">
-        <div class="w-3/4 text-white max-w-7xl mx-auto pt-10 pl-40">
-            <h1 class="text-5xl font-medium leading-none">Геодезия и 3D<br>сканирование</h1>
-            <h2 class="text-xl">профессионализм и качество в сфере геодезических услуг</h2>
-            <nav class="">
-                <ul class="flex mt-40">
-                    <li class="mx-1">
-                        <a href="#3d_skanirovanie">
-                            <p class="bg-black relative top-6 z-10 text-center">3D сканирование</p>
-                            <img class="relative z-0" src="images/1.jpg" alt="1">
-                        </a>
-                    </li>
-                    <li class="mx-1">
-                        <a href="#fasady">
-                            <p class="bg-black relative top-6 z-10 text-center">фасады</p>
-                            <img class="relative z-0" src="images/2.jpg" alt="1">
-                        </a>
-                    </li>
-                    <li class="mx-1">
-                        <a href="#v_stroitelstve">
-                            <p class="bg-black relative top-6 z-10 text-center">в строительстве</p>
-                            <img class="relative z-0" src="images/3.jpg" alt="1">
-                        </a>
-                    </li>
-                    <li class="mx-1">
-                        <a href="#izyskaniya">
-                            <p class="bg-black relative top-6 z-10 text-center">изыскания</p>
-                            <img class="relative z-0" src="images/4.jpg" alt="1">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="w-1/4">
-            <a href="#gmail" class="rounded-full block mt-10">
-                <img class="mx-auto" src="images/gmail.svg" alt="Gmail">
-            </a>
-            <a href="#telegram" class="rounded-full block my-3">
-                <img class="mx-auto" src="images/telegram.svg" alt="Telegeam">
-            </a>
-            <a href="https://www.facebook.com/smart.geo.92" class="rounded-full block">
-                <img class="mx-auto" src="images/facebook.svg" alt="Facebook">
-            </a>     
-        </div>
+    <main class="">
+    	<section class="flex flew-wrap">
+	        <div class="w-3/4 text-white max-w-7xl mx-auto pt-10 pl-40">
+	            <h1 class="text-5xl font-medium leading-none">Геодезия и 3D<br>сканирование</h1>
+	            <h2 class="text-xl">профессионализм и качество в сфере геодезических услуг</h2>
+	        </div>
+	        <div class="w-1/4">
+	            <a href="#gmail" class="rounded-full block mt-10">
+	                <img class="mx-auto" src="images/gmail.svg" alt="Gmail">
+	            </a>
+	            <a href="#telegram" class="rounded-full block my-3">
+	                <img class="mx-auto" src="images/telegram.svg" alt="Telegeam">
+	            </a>
+	            <a href="https://www.facebook.com/smart.geo.92" class="rounded-full block">
+	                <img class="mx-auto" src="images/facebook.svg" alt="Facebook">
+	            </a>     
+	        </div>
+    	</section>
+		<nav class="text-white pl-40 pr-32">
+		    <ul class="flex mt-40">
+		        <li class="mx-1 ">
+		            <a href="#3d_skanirovanie">
+		                <p class="bg-black relative top-6 z-10 text-center">3D сканирование</p>
+		                <img class="relative z-0 h-48 w-full object-cover" src="images/1.jpg" alt="1">
+		            </a>
+		        </li>
+		        <li class="mx-1">
+		            <a href="#fasady">
+		                <p class="bg-black relative top-6 z-10 text-center">фасады</p>
+		                <img class="relative z-0 h-48 w-60 object-right object-cover" src="images/2.jpg" alt="1">
+		            </a>
+		        </li>
+		        <li class="mx-1">
+		            <a href="#v_stroitelstve">
+		                <p class="bg-black relative top-6 z-10 text-center">в строительстве</p>
+		                <img class="relative z-0 h-48 w-60 object-right object-cover" src="images/3.jpg" alt="1">
+		            </a>
+		        </li>
+		        <li class="mx-1">
+		            <a href="#izyskaniya">
+		                <p class="bg-black relative top-6 z-10 text-center">изыскания</p>
+		                <img class="relative z-0 h-48 w-60 object-right object-cover" src="images/4.jpg" alt="1">
+		            </a>
+		        </li>
+		    </ul>
+		</nav>
     </main>
 </div>
 </template>

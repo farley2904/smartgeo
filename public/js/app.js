@@ -3527,6 +3527,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -26243,129 +26245,131 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("main", { staticClass: "flex flew-wrap" }, [
-      _c(
-        "div",
-        { staticClass: "w-3/4 text-white max-w-7xl mx-auto pt-10 pl-40" },
-        [
-          _c("h1", { staticClass: "text-5xl font-medium leading-none" }, [
-            _vm._v("Геодезия и 3D"),
-            _c("br"),
-            _vm._v("сканирование")
+    return _c("main", {}, [
+      _c("section", { staticClass: "flex flew-wrap" }, [
+        _c(
+          "div",
+          { staticClass: "w-3/4 text-white max-w-7xl mx-auto pt-10 pl-40" },
+          [
+            _c("h1", { staticClass: "text-5xl font-medium leading-none" }, [
+              _vm._v("Геодезия и 3D"),
+              _c("br"),
+              _vm._v("сканирование")
+            ]),
+            _vm._v(" "),
+            _c("h2", { staticClass: "text-xl" }, [
+              _vm._v("профессионализм и качество в сфере геодезических услуг")
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "w-1/4" }, [
+          _c(
+            "a",
+            {
+              staticClass: "rounded-full block mt-10",
+              attrs: { href: "#gmail" }
+            },
+            [
+              _c("img", {
+                staticClass: "mx-auto",
+                attrs: { src: "images/gmail.svg", alt: "Gmail" }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "rounded-full block my-3",
+              attrs: { href: "#telegram" }
+            },
+            [
+              _c("img", {
+                staticClass: "mx-auto",
+                attrs: { src: "images/telegram.svg", alt: "Telegeam" }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "rounded-full block",
+              attrs: { href: "https://www.facebook.com/smart.geo.92" }
+            },
+            [
+              _c("img", {
+                staticClass: "mx-auto",
+                attrs: { src: "images/facebook.svg", alt: "Facebook" }
+              })
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("nav", { staticClass: "text-white pl-40 pr-32" }, [
+        _c("ul", { staticClass: "flex mt-40" }, [
+          _c("li", { staticClass: "mx-1 " }, [
+            _c("a", { attrs: { href: "#3d_skanirovanie" } }, [
+              _c(
+                "p",
+                { staticClass: "bg-black relative top-6 z-10 text-center" },
+                [_vm._v("3D сканирование")]
+              ),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "relative z-0 h-48 w-full object-cover",
+                attrs: { src: "images/1.jpg", alt: "1" }
+              })
+            ])
           ]),
           _vm._v(" "),
-          _c("h2", { staticClass: "text-xl" }, [
-            _vm._v("профессионализм и качество в сфере геодезических услуг")
+          _c("li", { staticClass: "mx-1" }, [
+            _c("a", { attrs: { href: "#fasady" } }, [
+              _c(
+                "p",
+                { staticClass: "bg-black relative top-6 z-10 text-center" },
+                [_vm._v("фасады")]
+              ),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "relative z-0 h-48 w-60 object-right object-cover",
+                attrs: { src: "images/2.jpg", alt: "1" }
+              })
+            ])
           ]),
           _vm._v(" "),
-          _c("nav", {}, [
-            _c("ul", { staticClass: "flex mt-40" }, [
-              _c("li", { staticClass: "mx-1" }, [
-                _c("a", { attrs: { href: "#3d_skanirovanie" } }, [
-                  _c(
-                    "p",
-                    { staticClass: "bg-black relative top-6 z-10 text-center" },
-                    [_vm._v("3D сканирование")]
-                  ),
-                  _vm._v(" "),
-                  _c("img", {
-                    staticClass: "relative z-0",
-                    attrs: { src: "images/1.jpg", alt: "1" }
-                  })
-                ])
-              ]),
+          _c("li", { staticClass: "mx-1" }, [
+            _c("a", { attrs: { href: "#v_stroitelstve" } }, [
+              _c(
+                "p",
+                { staticClass: "bg-black relative top-6 z-10 text-center" },
+                [_vm._v("в строительстве")]
+              ),
               _vm._v(" "),
-              _c("li", { staticClass: "mx-1" }, [
-                _c("a", { attrs: { href: "#fasady" } }, [
-                  _c(
-                    "p",
-                    { staticClass: "bg-black relative top-6 z-10 text-center" },
-                    [_vm._v("фасады")]
-                  ),
-                  _vm._v(" "),
-                  _c("img", {
-                    staticClass: "relative z-0",
-                    attrs: { src: "images/2.jpg", alt: "1" }
-                  })
-                ])
-              ]),
+              _c("img", {
+                staticClass: "relative z-0 h-48 w-60 object-right object-cover",
+                attrs: { src: "images/3.jpg", alt: "1" }
+              })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "mx-1" }, [
+            _c("a", { attrs: { href: "#izyskaniya" } }, [
+              _c(
+                "p",
+                { staticClass: "bg-black relative top-6 z-10 text-center" },
+                [_vm._v("изыскания")]
+              ),
               _vm._v(" "),
-              _c("li", { staticClass: "mx-1" }, [
-                _c("a", { attrs: { href: "#v_stroitelstve" } }, [
-                  _c(
-                    "p",
-                    { staticClass: "bg-black relative top-6 z-10 text-center" },
-                    [_vm._v("в строительстве")]
-                  ),
-                  _vm._v(" "),
-                  _c("img", {
-                    staticClass: "relative z-0",
-                    attrs: { src: "images/3.jpg", alt: "1" }
-                  })
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "mx-1" }, [
-                _c("a", { attrs: { href: "#izyskaniya" } }, [
-                  _c(
-                    "p",
-                    { staticClass: "bg-black relative top-6 z-10 text-center" },
-                    [_vm._v("изыскания")]
-                  ),
-                  _vm._v(" "),
-                  _c("img", {
-                    staticClass: "relative z-0",
-                    attrs: { src: "images/4.jpg", alt: "1" }
-                  })
-                ])
-              ])
+              _c("img", {
+                staticClass: "relative z-0 h-48 w-60 object-right object-cover",
+                attrs: { src: "images/4.jpg", alt: "1" }
+              })
             ])
           ])
-        ]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "w-1/4" }, [
-        _c(
-          "a",
-          {
-            staticClass: "rounded-full block mt-10",
-            attrs: { href: "#gmail" }
-          },
-          [
-            _c("img", {
-              staticClass: "mx-auto",
-              attrs: { src: "images/gmail.svg", alt: "Gmail" }
-            })
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "a",
-          {
-            staticClass: "rounded-full block my-3",
-            attrs: { href: "#telegram" }
-          },
-          [
-            _c("img", {
-              staticClass: "mx-auto",
-              attrs: { src: "images/telegram.svg", alt: "Telegeam" }
-            })
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "a",
-          {
-            staticClass: "rounded-full block",
-            attrs: { href: "https://www.facebook.com/smart.geo.92" }
-          },
-          [
-            _c("img", {
-              staticClass: "mx-auto",
-              attrs: { src: "images/facebook.svg", alt: "Facebook" }
-            })
-          ]
-        )
+        ])
       ])
     ])
   }
