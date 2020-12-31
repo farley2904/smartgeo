@@ -42,28 +42,28 @@
     	</section>
 		<nav class="text-white pl-40 pr-32">
 		    <ul class="flex mt-40">
-		        <li class="mx-1 ">
+		        <li class="mx-1">
 		            <a href="#3d_skanirovanie">
 		                <p class="bg-black relative top-6 z-10 text-center">3D сканирование</p>
-		                <img class="relative z-0 h-48 w-full object-cover" src="images/1.jpg" alt="1">
+		                <img class="relative z-0 h-56 w-full object-cover" src="images/1.jpg" alt="1">
 		            </a>
 		        </li>
 		        <li class="mx-1">
 		            <a href="#fasady">
 		                <p class="bg-black relative top-6 z-10 text-center">фасады</p>
-		                <img class="relative z-0 h-48 w-60 object-right object-cover" src="images/2.jpg" alt="1">
+		                <img class="relative z-0 h-56 w-60 object-right object-cover" src="images/2.jpg" alt="1">
 		            </a>
 		        </li>
 		        <li class="mx-1">
 		            <a href="#v_stroitelstve">
 		                <p class="bg-black relative top-6 z-10 text-center">в строительстве</p>
-		                <img class="relative z-0 h-48 w-60 object-right object-cover" src="images/3.jpg" alt="1">
+		                <img class="relative z-0 h-56 w-60 object-right object-cover" src="images/3.jpg" alt="1">
 		            </a>
 		        </li>
 		        <li class="mx-1">
 		            <a href="#izyskaniya">
 		                <p class="bg-black relative top-6 z-10 text-center">изыскания</p>
-		                <img class="relative z-0 h-48 w-60 object-right object-cover" src="images/4.jpg" alt="1">
+		                <img class="relative z-0 h-56 w-60 object-right object-cover" src="images/4.jpg" alt="1">
 		            </a>
 		        </li>
 		    </ul>

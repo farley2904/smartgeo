@@ -26310,7 +26310,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("nav", { staticClass: "text-white pl-40 pr-32" }, [
         _c("ul", { staticClass: "flex mt-40" }, [
-          _c("li", { staticClass: "mx-1 " }, [
+          _c("li", { staticClass: "mx-1" }, [
             _c("a", { attrs: { href: "#3d_skanirovanie" } }, [
               _c(
                 "p",
@@ -26319,7 +26319,7 @@ var staticRenderFns = [
               ),
               _vm._v(" "),
               _c("img", {
-                staticClass: "relative z-0 h-48 w-full object-cover",
+                staticClass: "relative z-0 h-56 w-full object-cover",
                 attrs: { src: "images/1.jpg", alt: "1" }
               })
             ])
@@ -26334,7 +26334,7 @@ var staticRenderFns = [
               ),
               _vm._v(" "),
               _c("img", {
-                staticClass: "relative z-0 h-48 w-60 object-right object-cover",
+                staticClass: "relative z-0 h-56 w-60 object-right object-cover",
                 attrs: { src: "images/2.jpg", alt: "1" }
               })
             ])
@@ -26349,7 +26349,7 @@ var staticRenderFns = [
               ),
               _vm._v(" "),
               _c("img", {
-                staticClass: "relative z-0 h-48 w-60 object-right object-cover",
+                staticClass: "relative z-0 h-56 w-60 object-right object-cover",
                 attrs: { src: "images/3.jpg", alt: "1" }
               })
             ])
@@ -26364,7 +26364,7 @@ var staticRenderFns = [
               ),
               _vm._v(" "),
               _c("img", {
-                staticClass: "relative z-0 h-48 w-60 object-right object-cover",
+                staticClass: "relative z-0 h-56 w-60 object-right object-cover",
                 attrs: { src: "images/4.jpg", alt: "1" }
               })
             ])
