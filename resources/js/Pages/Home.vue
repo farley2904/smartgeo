@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="bg-no-repeat bg-cover h-screen" style="background-image: url(images/main-bg.jpg)">
     <header class="bg-white">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:pl-40 lg:pr-28">
             <div class="relative flex items-center justify-between h-16">

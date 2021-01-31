@@ -26152,61 +26152,70 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("header", { staticClass: "bg-white" }, [
-      _c(
-        "div",
-        { staticClass: "max-w-7xl mx-auto px-2 sm:px-6 lg:pl-40 lg:pr-28" },
-        [
-          _c(
-            "div",
-            { staticClass: "relative flex items-center justify-between h-16" },
-            [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
-                },
-                [
-                  _c(
-                    "div",
-                    { staticClass: "flex-shrink-0 flex items-center" },
-                    [
-                      _c(
-                        "a",
-                        { attrs: { href: "/" } },
-                        [
-                          _c("img", {
-                            staticClass: "block lg:hidden h-8 w-auto",
-                            attrs: {
-                              src: "images/logo-mini.svg",
-                              alt: "Smartgeo"
-                            }
-                          }),
-                          _vm._v(" "),
-                          _c("jet-application-logo", {
-                            staticClass: "hidden lg:block h-8 w-auto"
-                          })
-                        ],
-                        1
-                      )
-                    ]
-                  )
-                ]
-              ),
-              _vm._v(" "),
-              _vm._m(0),
-              _vm._v(" "),
-              _vm._m(1)
-            ]
-          )
-        ]
-      )
-    ]),
-    _vm._v(" "),
-    _vm._m(2)
-  ])
+  return _c(
+    "div",
+    {
+      staticClass: "bg-no-repeat bg-cover h-screen",
+      staticStyle: { "background-image": "url(images/main-bg.jpg)" }
+    },
+    [
+      _c("header", { staticClass: "bg-white" }, [
+        _c(
+          "div",
+          { staticClass: "max-w-7xl mx-auto px-2 sm:px-6 lg:pl-40 lg:pr-28" },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "relative flex items-center justify-between h-16"
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
+                  },
+                  [
+                    _c(
+                      "div",
+                      { staticClass: "flex-shrink-0 flex items-center" },
+                      [
+                        _c(
+                          "a",
+                          { attrs: { href: "/" } },
+                          [
+                            _c("img", {
+                              staticClass: "block lg:hidden h-8 w-auto",
+                              attrs: {
+                                src: "images/logo-mini.svg",
+                                alt: "Smartgeo"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("jet-application-logo", {
+                              staticClass: "hidden lg:block h-8 w-auto"
+                            })
+                          ],
+                          1
+                        )
+                      ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _vm._m(0),
+                _vm._v(" "),
+                _vm._m(1)
+              ]
+            )
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _vm._m(2)
+    ]
+  )
 }
 var staticRenderFns = [
   function() {
@@ -42162,8 +42171,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /srv/http/project/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /srv/http/project/resources/css/app.css */"./resources/css/app.css");
+__webpack_require__(/*! /srv/http/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /srv/http/resources/css/app.css */"./resources/css/app.css");
 
 
 /***/ })
